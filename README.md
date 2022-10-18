@@ -12,7 +12,7 @@ All images of size are 512*512 pixels (The tiff files have been preprocessed.)
 
 Now, I have two purposes:
 1. Convert CT imaged values to Hounsfield unit(HU) and overlap the ROI, so that we can observe whether the segmentation is the muscle region. Skeletal muscle is defined as −29 to +150 HU, so I choose two ranges: −29 to +150 HU and 0 to 100 HU.  
-2. Let ROI have DICOM metadata
+2. Let ROI have DICOM metadata, and we can extract only the clinical information of the ROI. You can use the Pyradiomics package or 3D Slicer for subsequent steps.
 
 Thanks for Professor Lu's teaching, the following resources are Professor Lu's tutorial.  
 Tutorial: http://cflu.lab.nycu.edu.tw/CFLu_course_matlabml.html
